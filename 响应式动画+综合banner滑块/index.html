@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<title></title>
+</head>
+<body>
+	<div style="background-image:url(images/2.jpg);background-repeat:no-repeat;height:426px;background-position:center;"></div>
+	<div class="hd-4" style="position:relative;z-index:99999;">
+		<div class="fix_banner" style="display:none;"><img src="images/7.gif"></div>
+        <div class="fix_banner" style="display:none;margin-left:560px;"><img src="images/right.png"></div>
+        <script type="text/javascript" src="js/respon_slide.js"></script>
+		<div class="banner_index">
+        	<div class="dot">
+            	<ul>
+                	<li style="background-position:0 0;"></li>
+                    <li></li>
+                    <li></li>
+                    <div style="clear:both;"></div>
+                </ul>
+            </div>
+            <div class="arrow">
+            	<a class="l-arrow" href="javascript:;"></a>
+            	<a class="r-arrow" href="javascript:;"></a>
+            </div>
+	        <ul class="banner_wrap" id="banner_index" style="padding:0;width:9999999px;">
+	          <li style="background-image:url(images/banner2Bg.jpg);">
+	          	<div class="li_1_1"></div>
+	          	<div class="li_1_2"></div>
+	          	<div class="li_1_3">虞阳</div>
+	          	<div class="li_1_4">你老婆怀上了</div>
+	          </li>
+	          <li style="background-image:url(images/img_2.jpg);"></li>
+	          <li style="background-image:url(images/img_3.jpg);"></li>
+	          <li style="background-image:url(images/banner2Bg.jpg);">
+	          	<div class="li_1_1"></div>
+	          	<div class="li_1_2"></div>
+	          	<div class="li_1_3">虞阳</div>
+	          	<div class="li_1_4">你老婆怀上了</div>
+	          </li>
+	        </ul>
+	    </div>
+	</div>
+	<div class="hd-5">
+    	<div style="background:url(images/rnmb111.png) no-repeat;width:1001px;height:991px;margin:0 auto;position:relative;top:11px;left:60px;"></div>
+    </div>
+    <div class="hd-6" style="position:relative;">
+    	<div class="hdTitle"></div>
+        <div class="contents"></div>
+    </div>
+    <div class="bottom"></div>
+	</body>
+<style>
+.banner_index{position:relative;}
+.banner_wrap{height:546px;}
+.banner_wrap li{background-repeat:no-repeat;background-position:center center;height:546px;}
+.dot{position:absolute;bottom:0px;right:537px;z-index:999999;}
+.dot li{background:url(images/dots.png) no-repeat;width:13px;height:13px;float:left;margin-left:5px;background-position:-42px 0;cursor:pointer;}
+.dot li:first-child{margin-left:0px;}
+.arrow{position: absolute;z-index:999999;left: 574px;top: 255px;}
+.arrow .l-arrow{
+	background: url(images/bg_btnPre_index.png) no-repeat center center;
+	display: inline-block;
+	width: 56px;
+	height: 78px;
+}
+.arrow .r-arrow{
+	background: url(images/bg_btnNext_index.png) no-repeat center center;
+	display: inline-block;
+	width: 56px;
+	height: 78px;
+}
+</style>
+<script type="text/javascript">
+var i=1;
+var totCouInd=3;
+var flag=1;
+var cnmb = setTimeout("autoRun("+i+")",3000);
+var widthNM = $(window).width();
+$(".banner_wrap li").width(widthNM);
+setInterval("chekNow()",50);
+function chekNow(){
+	var top = $(window).scrollTop();
+	if(top>300){
+		$(".fix_banner").fadeIn();
+	}else{
+		$(".fix_banner").fadeOut();
+	}
+}
+/*试验*/
+/*试验完毕*/
+/*自动滚动*/
+function autoRun(i){
+    clearTimeout(cnmb);
+    var posL = widthNM*i;
+	$(".dot li").each(function(x){
+	    if(x==i){
+			$(this).css("backgroundPositionX","0px");
+			if(navigator.userAgent.indexOf('Firefox')>=0){
+				$(this).css("background-position","0px 0px");
+			}
+		}else{
+			$(this).css("backgroundPositionX","-42px");
+			if(navigator.userAgent.indexOf('Firefox')>=0){
+				$(this).css("background-position","-42px 0px");
+			}
+		}
+		if(i==3){
+			$(".dot li:first").css("backgroundPositionX","0px");
+			if(navigator.userAgent.indexOf('Firefox')>=0){
+				$(".dot li:first").css("background-position","0px 0px");
+			}
+		}
+	});
+	console.log(i);
+    $(".banner_wrap").stop().animate({"left":-posL},{queue:false,duration:800,complete:function(){flag=1;}});
+    i++;
+    if(i>3){
+  	    i=0;
+  	    setTimeout(function(){
+  		    $(".banner_wrap").stop().animate({"left":"0px"},{queue:false,duration:0,complete:function(){flag=1;}});
+  	    },800);
+  	    i++;
+    }
+    cnmb = setTimeout("autoRun("+i+")",5000);
+    console.log(i);
+    console.log('single');
+    $(".banner_index").mouseenter(function() {
+		clearTimeout(cnmb);
+	}).mouseleave(function() {
+		cnmb = setTimeout("autoRun("+i+")",5000);
+		console.log('double');
+	});
+}
+
+// function autoRun(i){
+//     clearTimeout(cnmb);
+//     var posL = widthNM*i;
+// 	$(".dot li").each(function(x){
+// 	    if(x==i){
+// 			$(this).css("backgroundPositionX","0px");
+// 			if(navigator.userAgent.indexOf('Firefox')>=0){
+// 				$(this).css("background-position","0px 0px");
+// 			}
+// 		}else{
+// 			$(this).css("backgroundPositionX","-42px");
+// 			if(navigator.userAgent.indexOf('Firefox')>=0){
+// 				$(this).css("background-position","-42px 0px");
+// 			}
+// 		}
+// 		if(i==3){
+// 			$(".dot li:first").css("backgroundPositionX","0px");
+// 			if(navigator.userAgent.indexOf('Firefox')>=0){
+// 				$(".dot li:first").css("background-position","0px 0px");
+// 			}
+// 		}
+// 	});
+//     $(".banner_wrap").stop().animate({"left":-posL},{queue:false,duration:800,complete:function(){flag=1;}});
+//     i++;
+//     if(i>3){
+//   	    i=0;
+//   	    setTimeout(function(){
+//   		    $(".banner_wrap").stop().animate({"left":"0px"},{queue:false,duration:0,complete:function(){flag=1;}});
+//   	    },800);
+//   	    i++;
+//     }
+//     cnmb = setTimeout("autoRun("+i+")",5000);
+// }
+/*点气泡索引*/
+$(".dot li").click(function() {
+	clearTimeout(cnmb);
+	$index = $(".dot li").index(this);
+	var clPosL = widthNM*$index;
+	$(this).css("backgroundPositionX","0px");
+	$(this).siblings().css("backgroundPositionX","-42px");
+	if(navigator.userAgent.indexOf('Firefox')>=0){
+		$(this).css("background-position","0px 0px");
+		$(this).siblings().css("background-position","-42px 0px");
+	}
+	$(".banner_wrap").stop().animate({"left":-clPosL},{queue:false,duration:800});
+	cnmb = setTimeout("autoRun("+$index+")",5000);
+});
+/*左箭头滑动*/
+$(".l-arrow").click(function() {
+	if(flag==1){
+		flag=0;
+		clearTimeout(cnmb);
+		//获取.banner_wrap的left值 除以widthNM得i
+		//click动作完成后dot归位 第一个图时click到第三个图
+		var le=parseInt($(".banner_wrap").css("left"));
+		var laPosL=le+widthNM;
+		var lai=Math.abs(le)/widthNM-1;
+		if(lai<0){
+			var lai=2;
+		}
+		if(laPosL>0){
+			var laPosL=-totCouInd*widthNM;
+			$(".banner_wrap").stop().animate({"left":laPosL},{queue:false,duration:0});
+		}else{
+			$(".banner_wrap").stop().animate({"left":laPosL},{queue:false,duration:800,complete:function(){flag=1;}});
+		}
+		cnmb=setTimeout("autoRun("+lai+")",0);
+	}
+});
+/*右箭头滑动*/
+$(".r-arrow").click(function() {
+	if(flag==1){
+		flag=0;
+		clearTimeout(cnmb);
+		var re=parseInt($(".banner_wrap").css("left"));
+		var raPosL=re-widthNM;
+		var rai=Math.abs(re)/widthNM+1;
+		$(".banner_wrap").stop().animate({"left":raPosL},{queue:false,duration:800,complete:function(){flag=1;}});
+		cnmb=setTimeout("autoRun("+rai+")",0);
+	}
+});
+
+$(function(){
+	$(".banner_index").slide({cate:"0"});
+});
+</script>    
+</html>
