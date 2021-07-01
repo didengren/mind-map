@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T20:46:48.650Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="ECcfq6rDVkP9eNsFFCXU" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T20:52:08.840Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="3_Z0J4MxfnUCXJ8QQPk-" version="14.8.2" type="github">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
     <mxGraphModel dx="946" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6e0c8c40b5770093-72" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=194;tabHeight=22;tabPosition=left;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="20" y="114.5" width="2298.5" height="1895.5" as="geometry" />
+          <mxGeometry x="20" y="114.5" width="2298.5" height="2125.5" as="geometry" />
         </mxCell>
         <mxCell id="6e0c8c40b5770093-7" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="665.5" y="174.5" width="130" height="70" as="geometry" />
@@ -89,13 +89,13 @@
           <mxGeometry x="327.5" y="114.5" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6eEZF03cfLi-6WDU2SeP-1" value="ruoyi-framework" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="50" y="740" width="982" height="1090" as="geometry" />
+          <mxGeometry x="50" y="740" width="982" height="1430" as="geometry" />
         </mxCell>
         <mxCell id="6eEZF03cfLi-6WDU2SeP-2" value="aspectj" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=50;tabHeight=17;tabPosition=left;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="100" y="789.1899999999999" width="280" height="535.5" as="geometry" />
         </mxCell>
         <mxCell id="6eEZF03cfLi-6WDU2SeP-3" value="config" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=50;tabHeight=17;tabPosition=left;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="410" y="790.57" width="300" height="1019.43" as="geometry" />
+          <mxGeometry x="410" y="790.57" width="300" height="1339.43" as="geometry" />
         </mxCell>
         <mxCell id="6eEZF03cfLi-6WDU2SeP-4" value="datasource" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=50;tabHeight=17;tabPosition=left;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=10;fontColor=#000000;align=center;" parent="1" vertex="1">
           <mxGeometry x="753.5" y="790.5699999999999" width="112" height="70" as="geometry" />
@@ -128,8 +128,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1106" y="1022" />
-              <mxPoint x="1106" y="1870" />
-              <mxPoint x="240" y="1870" />
+              <mxPoint x="1106" y="2200" />
+              <mxPoint x="240" y="2200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -215,6 +215,12 @@
         </mxCell>
         <mxCell id="CHEhkAuZ7TmxK4s6tysW-20" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SecurityConfig&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;security配置&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;//&amp;nbsp;自定义用户认证逻辑&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;//&amp;nbsp;认证失败处理类&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;//&amp;nbsp;token认证过滤器&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;//&amp;nbsp;跨域过滤器&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="421.5" y="1650" width="277" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="CHEhkAuZ7TmxK4s6tysW-22" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ServerConfig&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;服务相关配置&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;//&amp;nbsp;获取完整的请求路径，包括：域名，端口，上下文访问路径&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="421.5" y="1800" width="277" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CHEhkAuZ7TmxK4s6tysW-23" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ThreadPoolConfig&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;线程池配置&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="421.5" y="1930" width="277" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
