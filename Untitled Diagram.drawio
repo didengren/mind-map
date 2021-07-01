@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T20:54:59.785Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="MW2RokiiRvtgkV2p8wrV" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T21:01:07.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="pfsiBdTi9g8D2ttcY_id" version="14.8.2" type="github">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
-    <mxGraphModel dx="788" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3495" dy="1415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,7 +107,7 @@
           <mxGeometry x="1210" y="740" width="410" height="770" as="geometry" />
         </mxCell>
         <mxCell id="6eEZF03cfLi-6WDU2SeP-7" value="annotation" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1280" y="784.5" width="320" height="415.5" as="geometry" />
+          <mxGeometry x="1260" y="784.5" width="320" height="415.5" as="geometry" />
         </mxCell>
         <mxCell id="6eEZF03cfLi-6WDU2SeP-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DataScope&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;数据权限过滤&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ deptAlias: String 部门表的别名&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;userAlias: String 用户表的别名&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="1300" y="854.5" width="180" height="90" as="geometry" />
@@ -124,17 +124,14 @@
         <mxCell id="6eEZF03cfLi-6WDU2SeP-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SysUserServiceImpl&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;用户业务层service实现&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ @DataScope selectUserList(): List&amp;lt;SysUser&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="1742" y="890" width="258" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="6eEZF03cfLi-6WDU2SeP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6eEZF03cfLi-6WDU2SeP-7" target="6eEZF03cfLi-6WDU2SeP-2" edge="1">
+        <mxCell id="6eEZF03cfLi-6WDU2SeP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" parent="1" source="6eEZF03cfLi-6WDU2SeP-18" target="6eEZF03cfLi-6WDU2SeP-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1106" y="1022" />
-              <mxPoint x="1106" y="2200" />
-              <mxPoint x="240" y="2200" />
+              <mxPoint x="1070" y="1020" />
+              <mxPoint x="1070" y="2210" />
+              <mxPoint x="240" y="2210" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="6eEZF03cfLi-6WDU2SeP-18" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1260" y="1002.25" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6eEZF03cfLi-6WDU2SeP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="6eEZF03cfLi-6WDU2SeP-8" target="6eEZF03cfLi-6WDU2SeP-13" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -171,20 +168,23 @@
             <mxPoint x="2040" y="1090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CHEhkAuZ7TmxK4s6tysW-7" value="" style="endArrow=classic;html=1;startArrow=none;exitX=0.571;exitY=0.974;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="6eEZF03cfLi-6WDU2SeP-20" edge="1">
+        <mxCell id="CHEhkAuZ7TmxK4s6tysW-7" value="" style="endArrow=classic;html=1;startArrow=none;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1571" y="1047.25" as="sourcePoint" />
-            <mxPoint x="1708" y="1022" as="targetPoint" />
+            <mxPoint x="1580" y="1025" as="sourcePoint" />
+            <mxPoint x="1708" y="1025" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1708" y="1025" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="CHEhkAuZ7TmxK4s6tysW-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;LogAspect&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;操作日志处理&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;//&amp;nbsp;处理完请求后执行&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ @AfterReturning doAfterReturning(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;//&amp;nbsp;拦截异常操作&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ @AfterThrowing&amp;nbsp;doAfterThrowing(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ handleLog(): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;......&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="126.25" y="1144.69" width="243.75" height="170" as="geometry" />
         </mxCell>
         <mxCell id="CHEhkAuZ7TmxK4s6tysW-9" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Log&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;自定义操作日志记录&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;+ title: String 模块&lt;br&gt;&amp;nbsp;+ businessType: BusinessType 功能&lt;br&gt;&amp;nbsp;+ operatorType: OperatorType 操作人类别&lt;br&gt;&amp;nbsp;+&amp;nbsp;isSaveRequestData: boolean&amp;nbsp;是否保存请求的参数" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="1070" width="290" height="110" as="geometry" />
+          <mxGeometry x="1275" y="1070" width="290" height="110" as="geometry" />
         </mxCell>
         <mxCell id="6eEZF03cfLi-6WDU2SeP-20" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1580" y="994.69" width="40" height="40" as="geometry" />
+          <mxGeometry x="1560" y="1005" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CHEhkAuZ7TmxK4s6tysW-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ApplicationConfig&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;程序注解配置&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;//&amp;nbsp;时区配置&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ jacksonObjectMapperCustomization(): Jackson2ObjectMapperBuilderCustomizer&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="421.5" y="844.69" width="277" height="110.31" as="geometry" />
@@ -221,6 +221,16 @@
         </mxCell>
         <mxCell id="CHEhkAuZ7TmxK4s6tysW-23" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ThreadPoolConfig&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;线程池配置&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="421.5" y="1930" width="277" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6eEZF03cfLi-6WDU2SeP-18" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1241" y="1000" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BSXhVmUD8A1AJu7fNN6o-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="6e0c8c40b5770093-72" target="6eEZF03cfLi-6WDU2SeP-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1259.9999999999995" y="1022.0000000000002" as="sourcePoint" />
+            <mxPoint x="240.00000000000045" y="1324.69" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
