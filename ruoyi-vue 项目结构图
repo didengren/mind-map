@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-02T01:39:11.237Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="mjaIoC7PIW78KsGEqnYM" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-29T04:32:05.262Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="2oI4-am9dusqafeYPLkB" version="14.9.8" type="github">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
-    <mxGraphModel dx="946" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,7 +113,7 @@
           <mxGeometry x="1300" y="854.5" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6eEZF03cfLi-6WDU2SeP-10" value="ruoyi-system" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2320" y="750" width="600" height="770" as="geometry" />
+          <mxGeometry x="2320" y="750" width="870" height="900" as="geometry" />
         </mxCell>
         <mxCell id="6eEZF03cfLi-6WDU2SeP-11" value="service" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="2355" y="784.5" width="540" height="445.5" as="geometry" />
@@ -446,14 +446,29 @@
             <mxGeometry x="1710" y="1065" width="400" height="195" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="XfFWlInfsJN4sbNjkclm-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;br&gt;&lt;b&gt;RepeatableFiter&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;拦截器复用处理&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;如请求数据流复用&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="XfFWlInfsJN4sbNjkclm-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;br&gt;&lt;b&gt;RepeatableFiter&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;拦截器复用处理&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;如请求数据流复用&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="1730" y="1120" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XfFWlInfsJN4sbNjkclm-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;br&gt;&lt;b&gt;XssFilter&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;防止XSS攻击的拦截器&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="XfFWlInfsJN4sbNjkclm-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;br&gt;&lt;b&gt;XssFilter&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;防止XSS攻击的拦截器&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="1870" y="1120" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="XfFWlInfsJN4sbNjkclm-8" value="utils" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1710" y="1335" width="400" height="55" as="geometry" />
+        <mxCell id="XfFWlInfsJN4sbNjkclm-8" value="utils" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1710" y="1335" width="400" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="k-x5mo_fQG7XoHbYs3Zx-2" value="SpringUtils&#xa;方便在非spring管理环境中获取bean" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=38;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1372" width="220" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="k-x5mo_fQG7XoHbYs3Zx-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k-x5mo_fQG7XoHbYs3Zx-2">
+          <mxGeometry y="38" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k-x5mo_fQG7XoHbYs3Zx-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="k-x5mo_fQG7XoHbYs3Zx-2">
+          <mxGeometry y="64" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="k-x5mo_fQG7XoHbYs3Zx-5" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k-x5mo_fQG7XoHbYs3Zx-2">
+          <mxGeometry y="72" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k-x5mo_fQG7XoHbYs3Zx-6" value="domain" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2355" y="1260" width="545" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
