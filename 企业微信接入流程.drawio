@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T06:26:52.274Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="ZhDa7snhGgZGcGzw1b2I" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-14T06:33:18.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="13v1wdD5e7KV_xjoUrK0" version="17.4.4" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="1795" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="-BD_mY3rdzX9CCHZaYfn-28" value="&lt;h3 style=&quot;line-height: 0.8&quot;&gt;oAuth授权获取用户信息免登录&lt;/h3&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;verticalAlign=top;fillColor=#CCE5FF;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-20" y="400" width="830" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="q2xAD3V1H3Vini_aAaJG-2" value="服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="q2xAD3V1H3Vini_aAaJG-2" value="应用系统server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="415" y="70" width="100" height="1930" as="geometry" />
         </mxCell>
         <mxCell id="q2xAD3V1H3Vini_aAaJG-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
