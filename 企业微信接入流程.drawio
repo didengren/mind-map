@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T06:10:48.043Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="_OtcJo9j-LGzaq9RVmkr" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-14T06:11:48.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="7h3MFu8hDfwK3Yf5ygSd" version="17.4.4" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="1795" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
             <mxPoint x="30" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-BD_mY3rdzX9CCHZaYfn-20" value="返回重定向链接&lt;br&gt;携带code、state" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="-BD_mY3rdzX9CCHZaYfn-19">
+        <mxCell id="-BD_mY3rdzX9CCHZaYfn-20" value="返回重定向链接&lt;br&gt;参数拼接code、state" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="-BD_mY3rdzX9CCHZaYfn-19">
           <mxGeometry x="0.0878" relative="1" as="geometry">
             <mxPoint x="23" as="offset" />
           </mxGeometry>
