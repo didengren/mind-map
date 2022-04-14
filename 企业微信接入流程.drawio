@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T06:11:48.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="7h3MFu8hDfwK3Yf5ygSd" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-14T06:23:28.654Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="TbR3ZYTQ7JMBI4LTHd5_" version="17.4.4" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="1795" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -29,10 +29,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-BD_mY3rdzX9CCHZaYfn-3" value="请求token, 入参corpid、corpsecret" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=1.3;exitY=0.238;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="q2xAD3V1H3Vini_aAaJG-1">
+        <mxCell id="-BD_mY3rdzX9CCHZaYfn-3" value="请求token, 入参corpid、corpsecret" style="endArrow=classic;html=1;rounded=0;fontSize=10;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="260" as="sourcePoint" />
-            <mxPoint x="690" y="260" as="targetPoint" />
+            <mxPoint x="680" y="260" as="targetPoint" />
             <Array as="points">
               <mxPoint x="620" y="260" />
             </Array>
@@ -59,7 +59,7 @@
           <mxGeometry x="45" y="390" width="10" height="250" as="geometry" />
         </mxCell>
         <mxCell id="-BD_mY3rdzX9CCHZaYfn-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="239" y="460" width="10" height="520" as="geometry" />
+          <mxGeometry x="239" y="460" width="10" height="130" as="geometry" />
         </mxCell>
         <mxCell id="-BD_mY3rdzX9CCHZaYfn-13" value="点击auth2链接" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -98,6 +98,43 @@
         <mxCell id="-BD_mY3rdzX9CCHZaYfn-20" value="返回重定向链接&lt;br&gt;参数拼接code、state" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="-BD_mY3rdzX9CCHZaYfn-19">
           <mxGeometry x="0.0878" relative="1" as="geometry">
             <mxPoint x="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BD_mY3rdzX9CCHZaYfn-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="460" y="623" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-BD_mY3rdzX9CCHZaYfn-22" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="33.5" y="640" as="sourcePoint" />
+            <mxPoint x="450" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BD_mY3rdzX9CCHZaYfn-23" value="HTTP 302跳转重定向的地址访问" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="-BD_mY3rdzX9CCHZaYfn-22">
+          <mxGeometry x="0.0636" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BD_mY3rdzX9CCHZaYfn-24" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="640" as="sourcePoint" />
+            <mxPoint x="680" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BD_mY3rdzX9CCHZaYfn-25" value="根据token获取userid&lt;br&gt;消费code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="-BD_mY3rdzX9CCHZaYfn-24">
+          <mxGeometry x="0.03" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BD_mY3rdzX9CCHZaYfn-26" value="返回userid" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;exitX=-0.4;exitY=0.603;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="684" y="680.19" as="sourcePoint" />
+            <mxPoint x="480" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BD_mY3rdzX9CCHZaYfn-27" value="返回页面数据" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;exitX=-0.4;exitY=0.603;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="444" y="680.19" as="sourcePoint" />
+            <mxPoint x="30" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
