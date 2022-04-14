@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T06:33:18.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="13v1wdD5e7KV_xjoUrK0" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-14T06:41:03.847Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="fpQ2kEe1U80Pu7bTu2Y5" version="17.4.4" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="1795" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -20,12 +20,12 @@
           <mxGeometry x="645" y="70" width="100" height="1930" as="geometry" />
         </mxCell>
         <mxCell id="-BD_mY3rdzX9CCHZaYfn-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="-BD_mY3rdzX9CCHZaYfn-1">
-          <mxGeometry x="45" y="170" width="10" height="730" as="geometry" />
+          <mxGeometry x="45" y="170" width="10" height="930" as="geometry" />
         </mxCell>
-        <mxCell id="-BD_mY3rdzX9CCHZaYfn-16" value="验证参数corpid、&lt;br&gt;redirect_url合法性" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;entryX=1.5;entryY=0.445;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="-BD_mY3rdzX9CCHZaYfn-1" target="-BD_mY3rdzX9CCHZaYfn-2">
+        <mxCell id="-BD_mY3rdzX9CCHZaYfn-16" value="验证参数corpid、&lt;br&gt;redirect_url合法性" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;" edge="1" parent="-BD_mY3rdzX9CCHZaYfn-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="65" y="410" as="sourcePoint" />
-            <mxPoint x="115" y="530" as="targetPoint" />
+            <mxPoint x="65" y="495" as="targetPoint" />
             <Array as="points">
               <mxPoint x="115" y="410" />
               <mxPoint x="115" y="495" />
@@ -104,7 +104,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-BD_mY3rdzX9CCHZaYfn-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="460" y="623" width="10" height="80" as="geometry" />
+          <mxGeometry x="460" y="623" width="10" height="397" as="geometry" />
         </mxCell>
         <mxCell id="-BD_mY3rdzX9CCHZaYfn-22" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -138,6 +138,33 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="444" y="680.19" as="sourcePoint" />
             <mxPoint x="30" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BD_mY3rdzX9CCHZaYfn-31" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="820" as="sourcePoint" />
+            <mxPoint x="680" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BD_mY3rdzX9CCHZaYfn-32" value="读取通讯录用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="-BD_mY3rdzX9CCHZaYfn-31">
+          <mxGeometry x="0.03" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BD_mY3rdzX9CCHZaYfn-33" value="返回手机、姓名、头像、部门等&lt;br&gt;用户信息" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;exitX=-0.4;exitY=0.603;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="684" y="860.19" as="sourcePoint" />
+            <mxPoint x="480" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BD_mY3rdzX9CCHZaYfn-34" value="关联应用系统&lt;br&gt;用户信息" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="888" as="sourcePoint" />
+            <mxPoint x="450" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="888" />
+              <mxPoint x="400" y="960" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
