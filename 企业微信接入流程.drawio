@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T08:50:19.446Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="FOFMJzpl71qDWas-RECS" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T09:16:38.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="ZEcQu32c6fup8zkNJcM2" version="16.0.3" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
-    <mxGraphModel dx="1796" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2728" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -168,15 +168,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-810" y="30" width="30" height="1270" as="geometry" />
+          <mxGeometry x="-810" y="160" width="30" height="1270" as="geometry" />
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="30" width="30" height="1260" as="geometry" />
+          <mxGeometry x="-600" y="160" width="30" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-770" y="80" as="sourcePoint" />
-            <mxPoint x="-320" y="80" as="targetPoint" />
+            <mxPoint x="-770" y="210" as="sourcePoint" />
+            <mxPoint x="-320" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-4" value="访问oauth2授权页&lt;br&gt;corpid、redirect_uri" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G3MdLucBdsFfCBGvvRXr-3">
@@ -186,11 +186,11 @@
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-560" y="380" as="sourcePoint" />
-            <mxPoint x="-560" y="480" as="targetPoint" />
+            <mxPoint x="-560" y="510" as="sourcePoint" />
+            <mxPoint x="-560" y="610" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-480" y="380" />
-              <mxPoint x="-480" y="480" />
+              <mxPoint x="-480" y="510" />
+              <mxPoint x="-480" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -200,12 +200,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="30" width="30" height="1260" as="geometry" />
+          <mxGeometry x="-310" y="160" width="30" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-560" y="240" as="sourcePoint" />
-            <mxPoint x="-320" y="240" as="targetPoint" />
+            <mxPoint x="-560" y="370" as="sourcePoint" />
+            <mxPoint x="-320" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-10" value="根据uri匹配corpsecret和自己写死的corpid获取token&lt;br&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;arial regular&amp;#34; ; font-size: 15px&quot;&gt;/gettoken?corpid=ID&amp;amp;corpsecret=SECRET&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G3MdLucBdsFfCBGvvRXr-9">
@@ -215,8 +215,8 @@
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-320" y="280" as="sourcePoint" />
-            <mxPoint x="-560" y="279.5" as="targetPoint" />
+            <mxPoint x="-320" y="410" as="sourcePoint" />
+            <mxPoint x="-560" y="409.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-12" value="access_token, expires_in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="G3MdLucBdsFfCBGvvRXr-11">
@@ -226,11 +226,11 @@
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-560" y="510" as="sourcePoint" />
-            <mxPoint x="-560" y="610" as="targetPoint" />
+            <mxPoint x="-560" y="640" as="sourcePoint" />
+            <mxPoint x="-560" y="740" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-480" y="510" />
-              <mxPoint x="-480" y="610" />
+              <mxPoint x="-480" y="640" />
+              <mxPoint x="-480" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -241,8 +241,8 @@
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-16" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-620" y="620" as="sourcePoint" />
-            <mxPoint x="-770" y="620" as="targetPoint" />
+            <mxPoint x="-620" y="750" as="sourcePoint" />
+            <mxPoint x="-770" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-17" value="返回随机数、时间戳和签名" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G3MdLucBdsFfCBGvvRXr-16">
@@ -252,11 +252,11 @@
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-770" y="1110" as="sourcePoint" />
-            <mxPoint x="-770" y="1230" as="targetPoint" />
+            <mxPoint x="-770" y="1240" as="sourcePoint" />
+            <mxPoint x="-770" y="1360" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-700" y="1110" />
-              <mxPoint x="-700" y="1230" />
+              <mxPoint x="-700" y="1240" />
+              <mxPoint x="-700" y="1360" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -267,11 +267,11 @@
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-770" y="750" as="sourcePoint" />
-            <mxPoint x="-770" y="840" as="targetPoint" />
+            <mxPoint x="-770" y="880" as="sourcePoint" />
+            <mxPoint x="-770" y="970" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-700" y="750" />
-              <mxPoint x="-700" y="840" />
+              <mxPoint x="-700" y="880" />
+              <mxPoint x="-700" y="970" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -282,11 +282,11 @@
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-770" y="860" as="sourcePoint" />
-            <mxPoint x="-770" y="950" as="targetPoint" />
+            <mxPoint x="-770" y="990" as="sourcePoint" />
+            <mxPoint x="-770" y="1080" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-710" y="860" />
-              <mxPoint x="-710" y="950" />
+              <mxPoint x="-710" y="990" />
+              <mxPoint x="-710" y="1080" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -297,11 +297,11 @@
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-770" y="980" as="sourcePoint" />
-            <mxPoint x="-770" y="1080" as="targetPoint" />
+            <mxPoint x="-770" y="1110" as="sourcePoint" />
+            <mxPoint x="-770" y="1210" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-710" y="980" />
-              <mxPoint x="-710" y="1080" />
+              <mxPoint x="-710" y="1110" />
+              <mxPoint x="-710" y="1210" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -312,8 +312,8 @@
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-320" y="120" as="sourcePoint" />
-            <mxPoint x="-770" y="120" as="targetPoint" />
+            <mxPoint x="-320" y="250" as="sourcePoint" />
+            <mxPoint x="-770" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-27" value="redirect_uri?code=CODE&amp;amp;state=STATE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="G3MdLucBdsFfCBGvvRXr-26">
@@ -323,30 +323,30 @@
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-28" value="&lt;span style=&quot;font-size: 10px&quot;&gt;http 302 redirect_uri?&lt;br&gt;code=CODE&amp;amp;state=STATE&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-770" y="210" as="sourcePoint" />
-            <mxPoint x="-610" y="210" as="targetPoint" />
+            <mxPoint x="-770" y="340" as="sourcePoint" />
+            <mxPoint x="-610" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-29" value="&lt;span style=&quot;font-size: 10px&quot;&gt;根据token获取userid&lt;/span&gt;&lt;br style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;消费code&lt;/span&gt;" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-560" y="680" as="sourcePoint" />
-            <mxPoint x="-320" y="680" as="targetPoint" />
+            <mxPoint x="-560" y="810" as="sourcePoint" />
+            <mxPoint x="-320" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-30" value="返回userid" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-320" y="720" as="sourcePoint" />
-            <mxPoint x="-560" y="720" as="targetPoint" />
+            <mxPoint x="-320" y="850" as="sourcePoint" />
+            <mxPoint x="-560" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-31" value="客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-825" width="50" height="20" as="geometry" />
+          <mxGeometry x="-825" y="120" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-32" value="小威" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-610" width="40" height="20" as="geometry" />
+          <mxGeometry x="-606" y="120" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="G3MdLucBdsFfCBGvvRXr-33" value="企微服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-340" width="80" height="20" as="geometry" />
+        <mxCell id="G3MdLucBdsFfCBGvvRXr-33" value="企业微信后台" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="120" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
