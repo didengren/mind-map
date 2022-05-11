@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T09:59:11.123Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="9g6Wse9XRKa8i56cXRnY" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T09:59:19.732Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="JzyyWckEqsQDq5su_Z7z" version="16.0.3" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="2276" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -350,9 +350,6 @@
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-33" value="企业微信后台" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-340" y="120" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="G3MdLucBdsFfCBGvvRXr-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="G3MdLucBdsFfCBGvvRXr-36" value="&lt;font style=&quot;font-size: 22px&quot;&gt;前端视角代码改造流程&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-656" y="50" width="240" height="20" as="geometry" />
